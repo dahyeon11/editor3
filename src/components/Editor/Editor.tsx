@@ -80,7 +80,7 @@ export default function Editor() {
               <ListPlugin />
               <LinkPlugin />
               <CheckListPlugin />
-              <TablePlugin />
+              <TablePlugin hasCellMerge={true} hasCellBackgroundColor={true} />
               <ImagesPlugin />
               <SlashCommandPlugin />
               <MarkdownShortcutPlugin transformers={TRANSFORMERS} />
